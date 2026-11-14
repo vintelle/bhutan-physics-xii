@@ -1,0 +1,320 @@
+// Bhutan Grade XII Physics Quiz Platform - database schema
+// Curriculum hierarchy (SCF 2022 + Physics IG 2022):
+//   Theme (Unit) -> Topic (Chapter) -> Subtopic (Concept + Scope) -> LearningOutcome -> Question
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------- people
+
+enum Role {
+  STUDENT
+  TEACHER
+  ADMIN
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  role         Role     @default(STUDENT)
+  school       String?
+  createdAt    DateTime @default(now())
+
+  classesTaught     Class[]          @relation("ClassTeacher")
+  enrollments       Enrollment[]
+  questionsAuthored Question[]       @relation("QuestionAuthor")
+  questionsReviewed Question[]       @relation("QuestionReviewer")
+  quizzes           Quiz[]
+  attempts          Attempt[]
+  mastery           Mastery[]
+  tutorSessions     TutorSession[]
+}
+
+model Class {
+  id        String       @id @default(cuid())
+  name      String // e.g. "XII Science A"
+  joinCode  String       @unique
+  teacherId String
+  teacher   User         @relation("ClassTeacher", fields: [teacherId], references: [id], onDelete: Cascade)
+  createdAt DateTime     @default(now())
+  students  Enrollment[]
+  quizzes   Quiz[]
+}
+
+model Enrollment {
+  userId   String
+  classId  String
+  joinedAt DateTime @default(now())
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  class    Class    @relation(fields: [classId], references: [id], onDelete: Cascade)
+
+  @@id([userId, classId])
+}
+
+// ---------------------------------------------------------------- curriculum
+
+model Theme {
+  code         String  @id // NM, FMT, EM, WO, ANSP
+  order        Int
+  name         String
+  minutes      Int
+  weighting    Int // % of Class XII (IG Annexure 2)
+  competencies Json // string[]
+  ks5Standards Json // string[]
+  igPages      String
+  scfTable     Int
+
+  topics   Topic[]
+  outcomes LearningOutcome[]
+}
+
+model Topic {
+  code      String @id // e.g. EM.3
+  order     Int
+  name      String
+  minutes   Int
+  weighting Int
+  themeCode String
+  theme     Theme  @relation(fields: [themeCode], references: [code])
+
+  subtopics Subtopic[]
+  outcomes  LearningOutcome[]
+}
+
+model Subtopic {
+  number        String   @id // e.g. 3.3.3
+  title         String
+  scope         String
+  igPedagogy    String
+  extraConcepts String[] // concepts that appear only in IG learning experiences
+  topicCode     String
+  topic         Topic    @relation(fields: [topicCode], references: [code])
+
+  exemplars IgExemplar[]
+  questions Question[]
+}
+
+enum Bloom {
+  REMEMBERING
+  UNDERSTANDING
+  APPLYING
+  ANALYSING
+  EVALUATING
+  CREATING
+}
+
+model LearningOutcome {
+  code         String   @id // XII.EM.07
+  roman        String // vii (numbering used in SCF/IG)
+  statement    String
+  bloomPrimary Bloom
+  practical    Boolean
+  numerical    Boolean
+  sep          String[] // Scientific Methods and Engineering Practices
+  subtopics    String[] // Subtopic numbers covered
+  themeCode    String
+  topicCode    String
+  theme        Theme    @relation(fields: [themeCode], references: [code])
+  topic        Topic    @relation(fields: [topicCode], references: [code])
+
+  questions Question[]
+  mastery   Mastery[]
+}
+
+// Verbatim questions from the Instructional Guide - style anchors for AI generation and a teacher reference.
+model IgExemplar {
+  id             String    @id // IG-XII-EM-3.4.3-1
+  themeCode      String
+  kind           String // exemplar | revision
+  n              Int
+  text           String
+  hasFigure      Boolean
+  subtopicNumber String?
+  subtopic       Subtopic? @relation(fields: [subtopicNumber], references: [number])
+}
+
+// ---------------------------------------------------------------- assessment items
+
+enum QuestionType {
+  MCQ
+  TRUE_FALSE
+  FILL_BLANK
+  MATCHING
+  NUMERICAL
+  ASSERTION_REASON
+  CONCEPTUAL
+}
+
+enum Domain {
+  SK // Scientific Knowledge
+  WS // Working Scientifically
+  SV // Scientific Values and Attitudes
+}
+
+enum QuestionSource {
+  SEED // authored with the platform
+  TEACHER // uploaded / written by a teacher
+  AI_GENERATED
+  IG_ADAPTED // adapted from an Instructional Guide exemplar
+}
+
+enum QuestionStatus {
+  DRAFT // awaiting teacher review - never shown to students
+  APPROVED
+  ARCHIVED
+}
+
+model Question {
+  id             String          @id @default(cuid())
+  type           QuestionType
+  bloom          Bloom
+  domain         Domain          @default(SK)
+  difficulty     Int             @default(2) // 1 easy - 3 hard
+  marks          Int             @default(1)
+  stem           String
+  payload        Json            @default("{}") // type-specific: options, left/right, unit, assertion/reason, keyPoints
+  answer         Json // type-specific correct answer (never sent to the client before answering)
+  explanation    String
+  misconception  String
+  hints          String[] // exactly 3, revealed in order
+  solutionSteps  String[] // step-by-step working (numericals)
+  scopeNote      String?
+  source         QuestionSource  @default(SEED)
+  status         QuestionStatus  @default(DRAFT)
+  outcomeCode    String
+  outcome        LearningOutcome @relation(fields: [outcomeCode], references: [code])
+  subtopicNumber String?
+  subtopic       Subtopic?       @relation(fields: [subtopicNumber], references: [number])
+  exemplarId     String?
+  authorId       String?
+  author         User?           @relation("QuestionAuthor", fields: [authorId], references: [id])
+  reviewerId     String?
+  reviewer       User?           @relation("QuestionReviewer", fields: [reviewerId], references: [id])
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+
+  quizLinks    QuizQuestion[]
+  attemptItems AttemptItem[]
+
+  @@index([outcomeCode, status])
+  @@index([type, bloom])
+}
+
+// ---------------------------------------------------------------- quizzes & attempts
+
+enum QuizMode {
+  PRACTICE // immediate feedback, hints allowed
+  TEST // feedback after submission, no hints, optional time limit
+}
+
+model Quiz {
+  id           String         @id @default(cuid())
+  title        String
+  description  String?
+  mode         QuizMode       @default(TEST)
+  timeLimitMin Int?
+  blueprint    Json? // generation spec when built by the test generator
+  published    Boolean        @default(false)
+  dueAt        DateTime?
+  createdById  String
+  createdBy    User           @relation(fields: [createdById], references: [id])
+  classId      String?
+  class        Class?         @relation(fields: [classId], references: [id], onDelete: SetNull)
+  createdAt    DateTime       @default(now())
+  questions    QuizQuestion[]
+  attempts     Attempt[]
+}
+
+model QuizQuestion {
+  quizId     String
+  questionId String
+  order      Int
+  quiz       Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([quizId, questionId])
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  SUBMITTED
+}
+
+model Attempt {
+  id          String        @id @default(cuid())
+  userId      String
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quizId      String?
+  quiz        Quiz?         @relation(fields: [quizId], references: [id], onDelete: SetNull)
+  mode        QuizMode
+  title       String
+  scope       Json // { outcomes: string[] } for topic practice
+  status      AttemptStatus @default(IN_PROGRESS)
+  score       Float         @default(0)
+  maxScore    Float         @default(0)
+  startedAt   DateTime      @default(now())
+  submittedAt DateTime?
+  items       AttemptItem[]
+
+  @@index([userId, submittedAt])
+}
+
+model AttemptItem {
+  id           String    @id @default(cuid())
+  attemptId    String
+  attempt      Attempt   @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId   String
+  question     Question  @relation(fields: [questionId], references: [id])
+  order        Int
+  response     Json?
+  isCorrect    Boolean?
+  credit       Float     @default(0) // 0..1 before hint penalty
+  marksAwarded Float     @default(0)
+  hintsUsed    Int       @default(0)
+  aiFeedback   String? // grader note for conceptual answers
+  answeredAt   DateTime?
+
+  @@unique([attemptId, order])
+}
+
+// Per-student, per-learning-outcome mastery (exponentially weighted).
+model Mastery {
+  userId      String
+  outcomeCode String
+  attempts    Int             @default(0)
+  correct     Int             @default(0)
+  score       Float           @default(0) // 0..1 EWMA of hint-adjusted credit
+  updatedAt   DateTime        @updatedAt
+  user        User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  outcome     LearningOutcome @relation(fields: [outcomeCode], references: [code])
+
+  @@id([userId, outcomeCode])
+}
+
+// ---------------------------------------------------------------- AI tutor
+
+model TutorSession {
+  id        String         @id @default(cuid())
+  userId    String
+  user      User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String
+  createdAt DateTime       @default(now())
+  messages  TutorMessage[]
+}
+
+model TutorMessage {
+  id        String       @id @default(cuid())
+  sessionId String
+  session   TutorSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  role      String // user | assistant
+  content   String
+  createdAt DateTime     @default(now())
+}

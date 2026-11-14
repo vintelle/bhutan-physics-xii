@@ -1,0 +1,1550 @@
+[
+  {
+    "theme": "NM",
+    "subtopic": "1.1.2",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Every simple harmonic motion is periodic motion, but every periodic motion need not be a simple harmonic motion. Give one example to justify your statement.",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.2-1"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.2",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "What is the time period of f(t)= cos (2ωt + φ)?",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.2-2"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.2",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Discuss the importance of applications of simple harmonic motion in daily life with TWO examples.",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.2-3"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.2",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "The displacement vs time graphs of 2 SHMs are given below. Which parameter is the same for both of them?",
+    "has_figure": true,
+    "id": "IG-XII-NM-1.1.2-4"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.2",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "________ motion is the projection of uniform circular motion on a diameter of the circle in which the latter motion takes place.",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.2-5"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.3",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Consider a particle executing simple harmonic motion of amplitude ‘A’ and angular frequency ‘ω’. What is the magnitude of displacement from the mean position when kinetic energy is equal to the magnitude of potential energy?",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.3-1"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.3",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Is total energy conserved in simple harmonic motion?",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.3-2"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.3",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "A particle is performing a SHM. calculate its total energy if its mass is doubled keeping the amplitude and force constant the same.",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.3-3"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.4",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "A girl is swinging in the sitting position. How will thetime period of the swing change if she stands up?",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.4-1"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.4",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "The bob of a vibrating simple pendulum is made of ice. How will the time period of swing change when ice starts melting?",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.4-2"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.4",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Calculate the maximum velocity at which an oscillating pendulum of length one metre will attain if its amplitude is 8 cm. (g=9.8 m/s2)",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.4-3"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.5",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "How can earthquakes cause disaster?",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.5-1"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.5",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Will the forced oscillation depend on their natural frequency? why?",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.5-2"
+  },
+  {
+    "theme": "NM",
+    "subtopic": "1.1.5",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "What are the advantages and applications of resonance?",
+    "has_figure": false,
+    "id": "IG-XII-NM-1.1.5-3"
+  },
+  {
+    "theme": "NM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 1,
+    "text": "A sewing machine needle moves in a path 4 cm and the frequency of its oscillations is 10 Hz. What are its displacement and acceleration 1/120 s after crossing the centre of its path?",
+    "has_figure": false,
+    "id": "IG-XII-NM-R-1"
+  },
+  {
+    "theme": "NM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 2,
+    "text": "A simple pendulum's bob is composed of wood. What effect would it have on the time period if the wooden bob was replaced with an identical iron bob?",
+    "has_figure": false,
+    "id": "IG-XII-NM-R-2"
+  },
+  {
+    "theme": "NM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 3,
+    "text": "Why is uniform circular motion not oscillatory?",
+    "has_figure": false,
+    "id": "IG-XII-NM-R-3"
+  },
+  {
+    "theme": "NM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 4,
+    "text": "When a pendulum clock is transported to the summit of a mountain, does it lose or gain time?",
+    "has_figure": false,
+    "id": "IG-XII-NM-R-4"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.1",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Is there a difference between tap water and distilled water in terms of surface tension? Explain your answer.",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.1-1"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.1",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Why does oil spread over the surface of the water?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.1-2"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.1",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "How do detergents remove the oil and wax from the clothes?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.1-3"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.1",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "One leg of a U tube has a radius of 0.5 cm, while the other has a radius of 0.1 cm. The tube is filled with water. Determine the difference in water levels in the two tubes. (Water S.T = 0.070 N/m, g = 9.8m/s2)",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.1-4"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.1",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "Why is it not possible to write directly on blotting paper or newspaper with an ink pen?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.1-5"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.2",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "How can Reynolds number help to predict the flow pattern in fluid mechanics?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.2-1"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.2",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Why are liquid molecules move at different speeds in various streamlines?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.2-2"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.2",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Why is a jet attached to the head of a firefighter's water pipes?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.2-3"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.2",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "Why does a fast-moving train drag anything in and nearby its path?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.2-4"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.1.2",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "Deep water is practically motionless. What exactly does it clarify?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.1.2-5"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.2.1",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "How can ideal gas be differentiated from real gas?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.2.1-1"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.2.1",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "A gas is at temperature 800C and pressure 5x 10-10 Nm-2. What is the number of molecules per m3 if Boltzmann’s constant is 1.38 x 10-23 JK-1.",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.2.1-2"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.2.1",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Six particles are moving at the speed 2, 3,3,3,7 and 8 m/s. Calculate rms speed, average speed and most probable speed of particles.",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.2.1-3"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": "2.2.1",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "Under what circumstances would you expect a gas to behave significantly differently than predicted by the ideal gas law?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-2.2.1-4"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 1,
+    "text": "One of the major impacts of a disaster during a storm is damages caused to the roof. Moreover, tall buildings are affected the most when compared to short buildings. Why are buildings' roofs being blown away by strong winds? What scientific laws can be applied to prevent this disaster?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-R-1"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 2,
+    "text": "The walls of the container are designed as per the purpose of utility. Explain the design of a container wall through mathematical expression to withstand the pressure exerted by the gas on the walls of the container.",
+    "has_figure": false,
+    "id": "IG-XII-FMT-R-2"
+  },
+  {
+    "theme": "FMT",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 3,
+    "text": "Estimate the total number of air molecules in a room of capacity 25 m3 at a temperature of 27°C. How can you use the scientific ideas to accommodate the number of air molecules obtained from the calculation in a room of capacity 25 m3? Will the same design of the container fit to store the gas molecules?",
+    "has_figure": false,
+    "id": "IG-XII-FMT-R-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.1.1",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "What conclusion(s) can be drawn from the F Vs r and F Vs q1 graphs?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.1.1-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.1.1",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Explain the properties of charges with the help of simulation.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.1.1-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.1.1",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "How does the direction of the force that acts on each of two charged objects due to the other object change depending on the type of charge? How do you know?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.1.1-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.1.1",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "a. Two insulated charged copper spheres A and B have their centres separated by a distance of 50 cm. What is the mutual force of electrostatic repulsion if the charge on each is 6.5 × 10!\" 𝐶? b. What is the repulsion force if each sphere is charged twice as much as t6.5 × 10!\" 𝐶 and the distance between them is halved?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.1.1-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.1.2",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "a. Explain a few properties of electric field lines from the simulation link https://bit.ly/3cvq4OH, b. What do you think the sensor's role in the simulation is?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.1.2-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.1.2",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Describe an electric flux and electric field strength due to a point charge.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.1.2-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.1.2",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "A circular plane sheet of radius 10cm is placed in a uniform electric field of 5 × 10# N𝐶 !$ , making an angle of 60% with the field. Calculate electric flux through the sheet.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.1.2-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.1.2",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "a. How does the change in voltage and distance between two charged parallel plates affect the trajectory of a charged particle in a uniform electric field? b. Explain how variables such as initial velocity, charge of particle and particle mass affect the trajectory of a charged particle in a uniform electric field.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.1.2-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.2.1",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Describe the working of capacitor?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.2.1-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.2.1",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "What factors affect the capacitance of a capacitor? How?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.2.1-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.2.1",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "A capacitor of 20µF is charged to a potential of 10 kV. Find the charge accumulated on each plate of the capacitor.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.2.1-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.2.1",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "How would you calculate the net charge of a charged capacitor?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.2.1-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.2.2",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "What happens to the total capacitance of capacitors when connected in series and in parallel?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.2.2-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.2.2",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "In the figure given below, 𝐶$ = 1µ𝐹, 𝐶& = 2µ𝐹 and 𝐶' = 3µ𝐹. Find the equivalent capacitance between points A and B.",
+    "has_figure": true,
+    "id": "IG-XII-EM-3.2.2-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.2.2",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Can we give any desired charge to a capacitor? Justify your answer.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.2.2-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.3.3",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "What is the basic cause of induced emf?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.3.3-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.3.3",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "How does the change in distance of the magnet from the centre of the magnetometer affect the magnetic moment of the given bar magnet?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.3.3-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.3.3",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Predict the polarity of the plate A of the capacitor, when a magnet is moved towards it, as shown in figure below:",
+    "has_figure": true,
+    "id": "IG-XII-EM-3.3.3-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.3.3",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "Why is an a.c. generator so called?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.3.3-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.3.3",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "How does electromagnetic induction occur?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.3.3-5"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.3.4",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Describe an experiment to demonstrate the phenomenon of self-induction.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.3.4-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.3.4",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "What is the main difference between step-up and step-down transformers?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.3.4-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.3.4",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Why does a transformer work with only a.c current but not direct current?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.3.4-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.3.4",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "An emf of 0.5 V is developed in the secondary coil, when current in the primary coil changes from 5.0 A to 2.0 A in 300 millisecond. Calculate the mutual inductance of the two coils.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.3.4-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.1",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Differentiate among conductor, semiconductor and insulator on the basis of energy bands.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.1-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.1",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "What are the advantages of superconductors?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.1-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.1",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "If room temperature superconductors (RTS) could be made, what applications could they have?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.1-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.1",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "How does temperature affect the resistivity of conductors, semiconductors and insulators?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.1-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.1",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "What is a thermistor? Differentiate between NTC and PTC thermistors.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.1-5"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.2",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Define semiconductors.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.2-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.2",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Differentiate p-type semiconductor from n-type semiconductor.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.2-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.2",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "What would our lives be like if the smei-conductor was never invented?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.2-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.2",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "What are the advantages of using a semiconductor compared to any other materials in designing electronic devices?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.2-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.3",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Using Kirchoff’s laws in the electrical network shown below, calculate the values of I1, I2 and I3 .",
+    "has_figure": true,
+    "id": "IG-XII-EM-3.4.3-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.3",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "What is the significance of a potential divider in an electric circuit?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.3-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.3",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Describe the working of fire alarms?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.3-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.3",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "Calculate the current i5 if the current i1 = 10 A, i2 = 7A, i3 = 9 A, and i4 = 4 A. Also state which rule is applied in the figure given below.",
+    "has_figure": true,
+    "id": "IG-XII-EM-3.4.3-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.4",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "How can the emf of a dry cell be determined by varying the resistance?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.4-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.4",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Explain resistance per unit length.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.4-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.4",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Why use a potentiometer to determine the emf of a dry cell when it can be done easily and quickly using a voltmeter?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.4-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.5",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Explain the principle of Wheatstone bridge.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.5-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.5",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "How does the specific resistance of the given wire change with change in resistance of the resistance box?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.5-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.5",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "A wire of 10 ohm resistance is stretched to thrice its original length. What will be its new resistivity?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.5-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.7",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Why do we use the RMS value of voltage and current in an a.c. circuit instead of the peak value?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.7-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.7",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Explain how current and voltage of an a.c. source varies sinosoidally.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.7-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.7",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "220 V a.c. is more dangerous than 220 V d.c. Why?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.7-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.7",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "When a series LCR-circuit is brought into resonance, the current in the circuit increases to a large value. Why?",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.7-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": "3.4.7",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "Distinguish between resistance, reactance and impedance of an a.c. circuit.",
+    "has_figure": false,
+    "id": "IG-XII-EM-3.4.7-5"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 1,
+    "text": "The proton that is the nucleus of the hydrogen atom attracts the electron that orbits it. Relative to this force, does the electron attract the proton with less, more or equal force?",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-1"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 2,
+    "text": "Consider three charges 𝑞$ , 𝑞& , 𝑞' each equal to q at the vertices of an equilateral triangle of side l. What is the force on a charge Q (with the same sign as q) placed at the centroid of the triangle?",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-2"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 3,
+    "text": "Measurements show that there is an electric field surrounding Earth. Its magnitude is about 100 N/C at Earth’s surface, and it points inward toward Earth’s center. From this information, can you state whether Earth is negatively or positively charged?",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-3"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 4,
+    "text": "An electron moves along a metal tube with variable cross-section, as shown in the figure below. How will its velocity change when it approaches the neck of the tube?",
+    "has_figure": true,
+    "id": "IG-XII-EM-R-4"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 5,
+    "text": "Five balls, numbered 1 to 5 are suspended using separate threads. Pairs (1, 2), (2, 4), (4, 1) show electrostatic attraction, while pairs (2, 3) and (4, 5) show repulsion. What is the nature of charge on ball 1?",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-5"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 6,
+    "text": "Is there any kind of material which when placed between the plates of a capacitor reduces its capacitance?",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-6"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 7,
+    "text": "A sheet of aluminium foil of negligible thickness is placed between the plates of a capacitor as shown in the figure below. What effect has it on the capacitance if the foil is (a) electrically insulated, and (b) connected to the upper plate with a conducting wire?",
+    "has_figure": true,
+    "id": "IG-XII-EM-R-7"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 8,
+    "text": "When a capacitor is connected across a battery, why does each plate receive a charge of exactly the same magnitude? Is this true even if the plates are of different sizes?",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-8"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 9,
+    "text": "Why is it dangerous to touch the terminals of a high-voltage capacitor even after the charging circuit is turned off?",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-9"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 10,
+    "text": "A bar magnet is placed on one side of the compass box at a certain distance. The position of the second bar magnet is adjusted on the other side to nullify the deflection. Will the distances of the two bar magnets be equal from the centre of the magnetic needle? Give reasons.",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-10"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 11,
+    "text": "Can a transformer be considered as an electrical lever? What does it multiply?",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-11"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 12,
+    "text": "What are the advantages of measuring resistance by the Wheatstone bridge method over other methods?",
+    "has_figure": false,
+    "id": "IG-XII-EM-R-12"
+  },
+  {
+    "theme": "EM",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 13,
+    "text": "Three students X, Y, Z performed an experiment for studying the variation of alternating currents with angular frequency in a series LCR-circuit and obtained the graphs shown below. They all used a.c. sources of the same rms value and inductances of the same value. What conclusion can be drawn about the capacitance values?",
+    "has_figure": true,
+    "id": "IG-XII-EM-R-13"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.1",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "A dentist uses a concave mirror to examine a tooth that is 1.00 cm in front of the mirror. The image of the tooth forms 10.0 cm behind the mirror. a) What is the mirror’s radius of curvature? b) What is the magnification of the image?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.1-1"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.1",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Why is shaving with a concave mirror preferable than shaving with a plane mirror?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.1-2"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.1",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Two concave mirrors have the same focal length but the aperture of one is larger than that of the other. Which mirror forms the sharper image and why?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.1-3"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.1",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "How will you distinguish between a plane, a concave and a convex mirror without touching its surface?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.1-4"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.1",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "A man stands in front of a unique-shaped mirror. He discovers that his image has a small head, a fat body, and normal-sized legs. What do you think of the three components of the mirror's shapes?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.1-5"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.2",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "A convex lens forms a real image of a point object placed on its principal axis. If the upper half of the lens is painted black, the image will not be shifted. Why?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.2-1"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.2",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "A convex lens forms a real image of an object for its two different positions on a screen. If height of the image in both the cases be 8 cm and 2 cm, what is the height of the object?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.2-2"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.2",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "How focal length of the lens immersed in liquid changes with the following conditions: a) If the refractive index of liquid is equal to refractive index of lens, b) If the refractive index of liquid is less than refractive index of lens and c) If the refractive index of liquid is greater than the refractive index of lens.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.2-3"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.2",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "An object placed 4 cm in front of a converging lens produces a real image 12 cm from the lens. What is the magnification of the image? What is the focal length of the lens? Draw the ray diagram to show the formation of the image based on the above conditions..",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.2-4"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.2",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "A convex lens of focal length 0.10 m is used to form a magnified image of an object of height 5 mm placed at a distance of 0.08 m from the lens. Find the position, nature and size of the image.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.2-5"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.3",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "State the laws of refraction.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.3-1"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.3",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Why is it important to know about the refractive index of liquid?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.3-2"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.1.3",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Calculate the least count of travelling microscope.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.1.3-3"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.2",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Sketch the shape of wave front emerging from the following sources of light and also mark the rays: a) linear source, b) point source and c) source at infinity.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.2-1"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.2",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Prove the laws of reflection and refraction of waves using the concept of Huygen’s Principle.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.2-2"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.2",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "What is the significance of Huygens principle?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.2-3"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.2",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "Differentiate between a ray and a wave front.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.2-4"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.2",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "Draw the wave front coming out from a convex lens, when a point source of light is placed at its focus.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.2-5"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.4",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "State the conditions necessary for the formation of constructive and destructive interference.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.4-1"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.4",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "In Young's experiment, the distance between slit and screen is doubled and separation is halved. Calculate the fringe width formed on the screen.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.4-2"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.4",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "What is the difference between coherent source and monochromatic source of light?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.4-3"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.4",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "A single light beam is split into two sources in Young's double slit experiment. Would the same pattern emerge if two separate sources of light, such as a distant car's headlights, were used? Explain.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.4-4"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.5",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "How will a diffraction pattern change when white light is used instead of a monochromatic light?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.5-1"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.5",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Differentiate between interference and diffraction.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.5-2"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.5",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "What will be the angular separation of the first order fringe from the central maximum, when a light of wavelength 500 nm is diffracted at a slit of width 0.5 mm?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.5-3"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.2.5",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "Name some examples that we see around involving diffraction in daily life?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.2.5-4"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.3.3",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "What are the properties of photons?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.3.3-1"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.3.3",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "A Final year Sherubtse College student was doing a practical examination to calculate the energy of photon of red and violet color. Which photon would be more energetic? Why?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.3.3-2"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.3.3",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "The yellow light in a photoelectric effect can only emit electrons. Will green and red light produce photoelectrons in the same way as yellow light does?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.3.3-3"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.3.3",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "The graph given illustrates the photoelectric experiment. Study the graph and then answer the questions that follow. a) When the potential decreases, the photocurrent decreases but does not becomes zero at zero potential. Why? b) Do the intensities of incident light affect the stopping potential or cutoff potential? c) What do you conclude from the graph?",
+    "has_figure": true,
+    "id": "IG-XII-WO-4.3.3-4"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.3.4",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Explain what is mean by the dual nature of light?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.3.4-1"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.3.4",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "What is the de Broglie wavelength?",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.3.4-2"
+  },
+  {
+    "theme": "WO",
+    "subtopic": "4.3.4",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Why can't we see the wave nature of matter in our everyday lives? Justify your answer with the help of an example.",
+    "has_figure": false,
+    "id": "IG-XII-WO-4.3.4-3"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 1,
+    "text": "An object is placed 20 cm from (a) a converging lens and (b) a diverging lens of focal length 15 cm. Calculate the image position and magnification in each case.",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-1"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 2,
+    "text": "In air, a thin converging lens has a focal length 'f'. Explain briefly how the focal length of the lens will change if it is completely immersed in a liquid.",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-2"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 3,
+    "text": "What changes in a focal length of a i) concave mirror and ii) convex lens occur when incident violet light on them is replaced with red light?",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-3"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 4,
+    "text": "The power of a lens is -8 D. Find the focal length and state the nature of the lens.",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-4"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 5,
+    "text": "Will the reflected rays converge at a point when a parallel beam of light is incident on a concave mirror of large aperture?",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-5"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 6,
+    "text": "A convex lens is placed in contact with a plane mirror. A point object at a distance of 20 cm on the axis of this combination has its image coinciding with itself. What is the focal length of the lens?",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-6"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 7,
+    "text": "A person standing before a concave mirror cannot see his image unless he is beyond the centre of curvature. Why?",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-7"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 8,
+    "text": "You read a newspaper, because of the light it reflects. Then why do you not see even a faint image of yourself in the newspaper?",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-8"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 9,
+    "text": "An object is placed between the pole and the focus of a concave mirror produces a virtual and enlarged image. Justify using mirror formula.",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-9"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 10,
+    "text": "A converging and diverging lens of equal focal lengths are placed coaxially in contact. Find the focal length and power of the combination.",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-10"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 11,
+    "text": "Although the surfaces of a goggle lens are curved, it does not have any power. Why?",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-11"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 12,
+    "text": "What is the focal length of a convex lens of focal length 30cm in contact with a concave lens of focal length 20cm? Is the system a converging or a diverging lens? Ignore thickness of the lenses.",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-12"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 13,
+    "text": "Huygen’s principle is important in describing the nature of waves. Explain the application of Huygen’s principle to describe the sound and light waves. is it possible to describe the nature of light and sound waves without Huygen’s principle.",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-13"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 14,
+    "text": "The modern automobile muffler senses the sound propagating down the exhaust pipe and creates a matching sound with opposite phase to reduce the ambient noise. The phenomenon used by this device is called destructive interference. Explain the formation of destructive interference and suggest the possible ways in which there are only a destructives waves.",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-14"
+  },
+  {
+    "theme": "WO",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 15,
+    "text": "If you are given a diffraction grating and prism in dispersing light for spectral analysis, which one would you choose and why?",
+    "has_figure": false,
+    "id": "IG-XII-WO-R-15"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.3",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Protons and neutrons are not fundamental particles. Justify.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.3-1"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.3",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Why Hydrogen is known as strongly interacted particle",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.3-2"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.3",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "For proton and antiproton, mention one property which is: a) Common. b) Opposite",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.3-3"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.3",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "Show that the charge of a proton is +1e and the charge of a neutron is zero using the quark model. Predict their baryon number and strangeness by using conservation law?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.3-4"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.3",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "Explain the transformation of quarks when a proton becomes a neutron.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.3-5"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.4",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "What is nanotechnology and what are its likely impacts?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.4-1"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.4",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "What are the advantages of nanomaterials over bulk materials?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.4-2"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.4",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "What are Carbon nanotubes? What are their important applications?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.4-3"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.4",
+    "kind": "exemplar",
+    "n": 4,
+    "text": "How can nanotechnology be used for the treatment of foot odour and brain disorder?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.4-4"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.1.4",
+    "kind": "exemplar",
+    "n": 5,
+    "text": "Nanotechnology is technology to manipulate and control a substance at the nanometer level. Besides numerous applications of the nanotechnologies, it poses threats to mankind. Justify by giving two examples of nanotechnology threats.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.1.4-5"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.2.1",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Neutrons are regarded suitable particles for nuclear fission reactions when compared to other particles. Why?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.2.1-1"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.2.1",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "The binding energy per nucleon of particle is 7.07 MeV. What do you mean by this statement?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.2.1-2"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.2.1",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "Large nuclei are unstable. Explain.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.2.1-3"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.2.3",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Fusion reaction has more advantages than fission reaction. Do you agree with this statement? Justify your answer",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.2.3-1"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.2.3",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "What are the two sets of thermonuclear fusion reactions that occur inside the sun and star?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.2.3-2"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.3.2",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "State Kepler’s second laws of planetary motion and its application in space exploration.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.3.2-1"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.3.2",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "An artificial satellite orbits the planet without consuming any fuel. But why is it that an airplane needs fuel to fly at a given altitude?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.3.2-2"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.3.2",
+    "kind": "exemplar",
+    "n": 3,
+    "text": "A remote sensing satellite of earth revolves in an orbit at a height of 0,25×106 m above the surface of earth. Find the orbital speed and the period of revolution of the satellite. Given earth radius, Re= 6.38×106 m and g= 9.8 ms-2",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.3.2-3"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.3.3",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Explain communication and data handling subsystem (CDHS).",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.3.3-1"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.3.3",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "Design the functional and operational requirement of the weather forecasting satellite to transform the mission objective into a designing process.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.3.3-2"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.3.5",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "What are the major hazards of the space environment?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.3.5-1"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.3.5",
+    "kind": "exemplar",
+    "n": 2,
+    "text": "If you get an opportunity to design a space satellite, for what purpose would you design it and why? Suggest one innovative way to remove your satellite from space once it expires.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.3.5-2"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": "5.3.6",
+    "kind": "exemplar",
+    "n": 1,
+    "text": "Explain the space laws and regulations.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-5.3.6-1"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 1,
+    "text": "The work functions of metals A, B, C and D are 5.2 eV, 2.0 eV, 6.3 eV and 3.5 eV respectively. Which metal is the (i) most photosensitive? (ii) least photosensitive?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-R-1"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 2,
+    "text": "The threshold wavelength for tungsten is 2400 . When tungsten is illuminated with light of wavelength 1600, find i) Work function ii) Maximum kinetic energy of the emitted electrons iii) Stopping potential.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-R-2"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 3,
+    "text": "Nuclear reactor is a device where controlled fission reaction produces steady amount of energy. What are the things you need to take into account for a successful operation of nuclear reactor?",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-R-3"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 4,
+    "text": "A satellite A with mass m orbits the earth at a distance of r from its center. Another satellite, B, with a mass of 2m, orbits the earth at a distance of 2r from its center. Calculate the ratio of their time periods.",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-R-4"
+  },
+  {
+    "theme": "ANSP",
+    "subtopic": null,
+    "kind": "revision",
+    "n": 5,
+    "text": "Engineers began designing rocket pieces that could be recovered and reused in the 1980s with NASA's space shuttle. What are some of the advantages of reusing rocket parts? Weighting and Time Allocation_class XI Time in Theme Topics Weighting Minutes Motion in a Straight Line 672 9 Motion in a Plane 676 8 Laws of Motion 754 10 Newtonian Mechanics Mechanical Properties of 458 6 Solids Work and Energy 396 5 Fluid Mechanics and Thermal Physics Thermal Physics 284 4 Magnetic Fields 654 8 Electricity and Magnetism Electric Circuit 694 10 Ray Optics 476 8 Waves and Optics Waves 396 4 Electromagnetic Waves 672 9 Atoms 254 5 Atomic, Nuclear, and Space Physics Radioactive Decay 314 7 Space Applications 500 7 Total 7200 100 Weighting and Time Allocation_class XII Theme Topics Time in Minutes Weighting Newtonian Mechanics Oscillations 864 12 Fluid Mechanics 406 7 Fluid Mechanics and Thermal Physics Kinetic Theory of Gases 266 3 Electricity 306 4 Capacitors 306 4 Electricity and Magnetism Electromagnetic Induction 612 9 Electric Circuit 805 12 Ray Optics 649 10 Waves and Optics Waves Optics 725 9 Quantum Physics 562 8 Particles Physics 522 7 Atomic, Nuclear Nuclear Energy 459 7 Space Physics Satellite Development 718 8 Total 7200 100",
+    "has_figure": false,
+    "id": "IG-XII-ANSP-R-5"
+  }
+]

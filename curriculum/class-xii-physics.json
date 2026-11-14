@@ -1,0 +1,1651 @@
+{
+  "meta": {
+    "class_level": "XII",
+    "subject": "Physics",
+    "sources": [
+      {
+        "id": "SCF",
+        "title": "National School Curriculum: Science Curriculum Framework, Classes PP-XII",
+        "publisher": "Centre for School Curriculum Development, DSE, MoESD",
+        "edition": "First Edition 2022; Second Edition 2025",
+        "pages": "Physics Section D, 12.2 Key Stage 5 (pp. 244-245), Class XII competency (pp. 255-256), Tables 16-20 (pp. 257-265), Assessment 15.3"
+      },
+      {
+        "id": "IG",
+        "title": "National School Curriculum: Instructional Guide for Physics, Classes XI & XII",
+        "publisher": "Department of Curriculum and Professional Development, MoE",
+        "edition": "First Edition 2022",
+        "pages": "Class XII pp. 78-157; Annexure 2 p. 159"
+      }
+    ],
+    "hierarchy": "Theme (Unit) > Topic (Chapter) > Sub-topic (Concept, with Scope) > Learning Objective (Learning Outcome) > Assessment Items",
+    "total_minutes": 7200,
+    "bloom_levels": [
+      "Remembering",
+      "Understanding",
+      "Applying",
+      "Analysing",
+      "Evaluating",
+      "Creating"
+    ],
+    "assessment_domains": {
+      "SK": "Scientific Knowledge",
+      "WS": "Working Scientifically",
+      "SV": "Scientific Values and Attitudes"
+    },
+    "scientific_methods_engineering_practices": [
+      "Asking Questions and Defining Problems",
+      "Developing and Using Models",
+      "Planning and Carrying out Investigations",
+      "Analysing and Interpreting Data",
+      "Using Mathematics and Computational Thinking",
+      "Constructing Explanations and Designing Solutions",
+      "Engaging in Argument from Evidence",
+      "Obtaining, Evaluating and Communicating Information"
+    ],
+    "society_and_technology": [
+      "Exploring Digital Resources",
+      "Using Physical Tools",
+      "Carrying out STEM Activities",
+      "Promoting Socio-cultural, Economic, Environment and Human Values"
+    ]
+  },
+  "themes": [
+    {
+      "code": "NM",
+      "order": 1,
+      "name": "Newtonian Mechanics",
+      "ig_pages": "79-86",
+      "scf_table": 16,
+      "competencies": [
+        "Conduct an experiment to interpret the concept of simple harmonic motion graphically using interactive simulation and study its application in amusement parks, open space gyms, earthquake seismometers etc.",
+        "Explain the concept of resonance through an experiment to create awareness about the effect of seismic waves on infrastructures and design a conceptual model of earthquake resistant infrastructures."
+      ],
+      "ks5_standards": [
+        "Interpret oscillatory motion using graphs and equations to solve numerical problems of oscillatory motion."
+      ],
+      "weighting": 12,
+      "minutes": 864
+    },
+    {
+      "code": "FMT",
+      "order": 2,
+      "name": "Fluid Mechanics and Thermal Physics",
+      "ig_pages": "87-93",
+      "scf_table": 17,
+      "competencies": [
+        "Conduct an experiment on surface tension to comprehend the movement of liquids in capillary tubes and flow of liquids through porous surfaces and apply the concept to clean water.",
+        "Design an experiment to measure the viscosity of the fluids to comprehend behaviour of flow of fluid.",
+        "Validate Bernoulli's equation using interactive simulations or models to explore the various applications in sizing the pipe, flow sensors, ejectors, pitot tube, etc.",
+        "Interpret gas expansion in terms of molecular motion that results in gas pressure due to molecular bombardment to understand the behaviour of gases."
+      ],
+      "notes": "The 4th competency (kinetic theory) appears in the IG only; the SCF Class XII competency list stops at Bernoulli.",
+      "ks5_standards": [
+        "Investigate the properties and energy possessed by a fluid to comprehend the practical applications of fluid mechanics."
+      ],
+      "weighting": 10,
+      "minutes": 672
+    },
+    {
+      "code": "EM",
+      "order": 3,
+      "name": "Electricity and Magnetism",
+      "ig_pages": "94-119",
+      "scf_table": 18,
+      "competencies": [
+        "Examine force of attraction and repulsion between charges using any interactive simulations or apps to explain Coulomb's law.",
+        "Interpret electric field, its strength and express electric flux for uniform and non-uniform electric field using simulations or apps to relate its applications in our life.",
+        "Construct a model of capacitor to explain its function as energy storage used in electronic devices.",
+        "Design an experiment to verify Faraday's laws of electromagnetic induction and apply the concept to design a working or conceptual model of a generator.",
+        "Explain the concept of self and mutual inductance and design a model (conceptual or working) to comprehend the working mechanism of a transformer.",
+        "Investigate the temperature dependence of resistivity of conductors, semiconductors, thermistors, and superconductors to identify appropriate materials for various applications.",
+        "Explain the distribution of voltage and current within the circuit and solve circuit network problems using the concept of Kirchhoff's law.",
+        "Explain a.c. circuit using interactive simulation or apps to describe the occurrence of electrical resonance."
+      ],
+      "ks5_standards": [
+        "Experiment and describe the net effect of interaction of charges (Coulomb's Law) and net effect of voltage and current through complex circuits (Kirchhoff's law and principle of wheatstone bridge).",
+        "Investigate Faraday's and Lenz's law to understand the induced e.m.f in simple generators, self and mutual inductance to describe the working of transformers.",
+        "Compare the temperature dependence of resistivity of conductors, semiconductors, thermistors, and superconductors to apply the concept of conservation of energy in electrical devices.",
+        "Study semiconductors to understand its application in sensors and thin film technology.",
+        "Examine a.c circuit, explain sinusoidal variation of voltage and current, and solve numerical problems.",
+        "Experiment and examine the behaviour of a capacitor during charging and discharging through a capacitor to determine the effective capacitance when capacitors are connected in series or parallel and apply the concept in electronics."
+      ],
+      "weighting": 29,
+      "minutes": 2029
+    },
+    {
+      "code": "WO",
+      "order": 4,
+      "name": "Waves and Optics",
+      "ig_pages": "120-138",
+      "scf_table": 19,
+      "competencies": [
+        "Conduct an experiment to study the behaviour of light when it strikes on different optical media and use the concept to design optical instruments.",
+        "Investigate and sketch image formation for different optical media using interactive simulation to comprehend the significance of optical media in optical instruments.",
+        "Verify Huygens' principle using appropriate light sources to explain the wave nature of light.",
+        "Illustrate interference and diffraction graphically and use the concept to study the stellar spectra and relate the concept in the field of optical communication.",
+        "Explain the particle nature of light and the photoelectric effect (Einstein's photoelectric equation) using interactive simulations/multimedia to relate its working in solar panel."
+      ],
+      "ks5_standards": [
+        "Develop conceptual understanding of formation of images by different optical systems, total internal reflection and its application in medical technology, telecommunications and natural phenomena and verify these concepts through simulations or practical experiments.",
+        "Describe the concept of interference and diffraction using Huygens' principle and superposition of waves to understand its applications in various fields."
+      ],
+      "weighting": 27,
+      "minutes": 1936
+    },
+    {
+      "code": "ANSP",
+      "order": 5,
+      "name": "Atomic, Nuclear and Space Physics",
+      "ig_pages": "139-157",
+      "scf_table": 20,
+      "competencies": [
+        "Examine the interior components of atoms and explain the behaviour and properties of each component to explain the standard model.",
+        "Study the concept of nanotechnology and recognise its significance and influence in our society.",
+        "Study nuclear energy as an alternative source of energy in future to assess the pros and cons of nuclear energy.",
+        "Identify the rocket parameters using interactive simulation to comprehend the process of rocket launch and satellite deployment.",
+        "Examine the methods of satellite disposal and suggest ways to minimize the accumulation of defunct satellites in space."
+      ],
+      "ks5_standards": [
+        "Explore applications of atomic and nuclear phenomena such as nanotechnology, radiation therapy, diagnostic imaging and nuclear power (purpose).",
+        "Explain the concept of photoelectric effect simulation to comprehend the particle nature of light and its application in the solar industry.",
+        "Explain the principle of stationing/launching satellites and Kepler's laws of planetary motion to describe the motion of planets and satellites.",
+        "Assess the emerging satellite technologies and rocketry to make best use of their applications in the area of remote sensing.",
+        "Identify the rocket parameters using interactive simulation to deploy satellites for the particular purposes undergoing different stages of rocket launch.",
+        "Suggest ways to remove satellite debris in the space to reduce hazards of the space environment inline with the GNH philosophy."
+      ],
+      "weighting": 22,
+      "minutes": 1699
+    }
+  ],
+  "topics": [
+    {
+      "code": "NM.1",
+      "theme": "NM",
+      "name": "Oscillations",
+      "minutes": 864,
+      "weighting": 12
+    },
+    {
+      "code": "FMT.1",
+      "theme": "FMT",
+      "name": "Fluid Mechanics",
+      "minutes": 406,
+      "weighting": 7
+    },
+    {
+      "code": "FMT.2",
+      "theme": "FMT",
+      "name": "Kinetic Theory of Gases",
+      "minutes": 266,
+      "weighting": 3
+    },
+    {
+      "code": "EM.1",
+      "theme": "EM",
+      "name": "Electricity",
+      "minutes": 306,
+      "weighting": 4
+    },
+    {
+      "code": "EM.2",
+      "theme": "EM",
+      "name": "Capacitors",
+      "minutes": 306,
+      "weighting": 4
+    },
+    {
+      "code": "EM.3",
+      "theme": "EM",
+      "name": "Electromagnetic Induction",
+      "minutes": 612,
+      "weighting": 9
+    },
+    {
+      "code": "EM.4",
+      "theme": "EM",
+      "name": "Electric Circuit",
+      "minutes": 805,
+      "weighting": 12
+    },
+    {
+      "code": "WO.1",
+      "theme": "WO",
+      "name": "Ray Optics",
+      "minutes": 649,
+      "weighting": 10
+    },
+    {
+      "code": "WO.2",
+      "theme": "WO",
+      "name": "Wave Optics",
+      "minutes": 725,
+      "weighting": 9
+    },
+    {
+      "code": "WO.3",
+      "theme": "WO",
+      "name": "Quantum Physics",
+      "minutes": 562,
+      "weighting": 8
+    },
+    {
+      "code": "ANSP.1",
+      "theme": "ANSP",
+      "name": "Particle Physics",
+      "minutes": 522,
+      "weighting": 7
+    },
+    {
+      "code": "ANSP.2",
+      "theme": "ANSP",
+      "name": "Nuclear Energy",
+      "minutes": 459,
+      "weighting": 7
+    },
+    {
+      "code": "ANSP.3",
+      "theme": "ANSP",
+      "name": "Space Science and Technology: Satellite Development",
+      "minutes": 718,
+      "weighting": 8
+    }
+  ],
+  "subtopics": [
+    {
+      "number": "1.1.1",
+      "topic": "NM.1",
+      "title": "Periodic and Oscillatory Motions",
+      "scope": "periodic and oscillatory motions, simple harmonic motion, time period and frequency of periodic motion and displacement of periodic motion and its calculation, relation between simple harmonic motion and uniform circular motion",
+      "ig_pedagogy": "Instructional practices with video + interactive simulation; learners share via CLT",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "1.1.2",
+      "topic": "NM.1",
+      "title": "Velocity and Acceleration in Simple Harmonic Motion",
+      "scope": "velocity and acceleration in simple harmonic motion",
+      "ig_pedagogy": "Instructional practices with interactive simulation (ophysics SHM)",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "1.1.3",
+      "topic": "NM.1",
+      "title": "Energy in Simple Harmonic Motion",
+      "scope": "energy in Simple Harmonic Motion (SHM), Hooke's law, slope and intercept from graph, least count of stopclock",
+      "ig_pedagogy": "CER model (Claim, Evidence, Reason); mass-spring system or simulation",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "1.1.4",
+      "topic": "NM.1",
+      "title": "System Executing Simple Harmonic Motion: Simple Pendulum",
+      "scope": "simple pendulum, acceleration due to gravity, time period, least count of vernier caliper and stopclock, conceptual relationship between effective length and time period, slope from graph",
+      "ig_pedagogy": "Structured inquiry (practical or online simulation)",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "1.1.5",
+      "topic": "NM.1",
+      "title": "Forced Oscillations and Resonance",
+      "scope": "free, forced oscillation and resonance, condition for resonance in forced oscillations, frequency of tuning fork, tension of wire, resonance, sonometer",
+      "ig_pedagogy": "Instructional practices; sonometer and tuning fork; design earthquake-resistant model",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "2.1.1",
+      "topic": "FMT.1",
+      "title": "Surface Tension",
+      "scope": "motion of bodies in a uniform gravitational field with fluid resistance, graphs and only final expressions, molecular theory for surface tension, applications of surface tension, cause and effect of surface tension in liquids, angle of contact, movement of liquids in capillary tubes using ideas of surface tension, travelling microscope, least count of travelling microscope, flow of liquids through porous media using capillary action",
+      "ig_pedagogy": "Instructional practices; capillary-rise practical; constructive debate",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "2.1.2",
+      "topic": "FMT.1",
+      "title": "Viscosity of Fluids",
+      "scope": "viscosity of fluids, streamline, laminar and turbulent flow, equation of continuity - principle of continuity in any steady state process, Bernoulli's principle and its application",
+      "ig_pedagogy": "Guided discovery learning; Bernoulli simulation (ophysics fl2)",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": [
+        "Reynolds number (appears in IG exemplar question only)"
+      ]
+    },
+    {
+      "number": "2.2.1",
+      "topic": "FMT.2",
+      "title": "Kinetic Theory of Ideal Gas",
+      "scope": "real and ideal gas, postulates and consequences of the kinetic theory of gases, pressure of an ideal gas, kinetic interpretation of temperature and final expression of average, rms and most probable speed of gas molecule",
+      "ig_pedagogy": "Instructional practices; derive kinetic gas equation; numerical problems",
+      "ig_exemplar_questions": 4,
+      "ig_extra_concepts": [
+        "Maxwell's speed distribution curve (IG learning experience)"
+      ]
+    },
+    {
+      "number": "3.1.1",
+      "topic": "EM.1",
+      "title": "Electric Charge",
+      "scope": "basic properties, Coulomb's law, forces due to multiple charges",
+      "ig_pedagogy": "Instructional practices; Coulomb's law simulation worksheet",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.1.2",
+      "topic": "EM.1",
+      "title": "Electric Field",
+      "scope": "electric field and electric field intensity, physical significance of electric field, electric field lines and their properties, similarities and differences between electric field and gravitational field, electric flux, electric field strength due to a point charge, electric field strength between two charged parallel plates, charged particle moving in a uniform electric field",
+      "ig_pedagogy": "Instructional practices; field-line and parallel-plate simulations",
+      "ig_exemplar_questions": 2,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.2.1",
+      "topic": "EM.2",
+      "title": "Capacitors and Capacitance",
+      "scope": "capacitors and capacitance, unit of capacitance, q = CV and effect of dielectric on capacitance, energy stored in capacitors (analytical and graphical), charging and discharging of capacitor (final expression and graphs)",
+      "ig_pedagogy": "Instructional practices; capacitor simulation; construct a simple capacitor model",
+      "ig_exemplar_questions": 4,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.2.2",
+      "topic": "EM.2",
+      "title": "Combination of Capacitors",
+      "scope": "series and parallel combinations of capacitors",
+      "ig_pedagogy": "PROE (Predict, Reason, Observe, Explain)",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.3.1",
+      "topic": "EM.3",
+      "title": "Magnetic Flux",
+      "scope": "terms and final expressions of: magnetic circuit, permeability, magnetic field strength, magneto-motive force, reluctance, permeance, and flux in magnetic circuit",
+      "ig_pedagogy": "Teacher introduction / relevant resources",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.3.2",
+      "topic": "EM.3",
+      "title": "Magnetic Moment of a Bar Magnet",
+      "scope": "magnetic moment, tangent law, deflection magnetometer - Tan A position",
+      "ig_pedagogy": "Practical: deflection magnetometer in Tan-A position",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.3.3",
+      "topic": "EM.3",
+      "title": "The Experiments of Faraday and Henry",
+      "scope": "experiments of Faraday and Henry, Faraday's laws of electromagnetic induction, Lenz's law, energy conservation, and a.c. generator",
+      "ig_pedagogy": "5E model (Engage, Explore, Explain, Elaborate, Evaluate)",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.3.4",
+      "topic": "EM.3",
+      "title": "Inductance",
+      "scope": "inductance, self induction and mutual induction, coefficient of self induction, coefficient of mutual induction, transformer",
+      "ig_pedagogy": "Order of activity; derivations; transformer simulation; transformation ratio numericals",
+      "ig_exemplar_questions": 4,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.4.1",
+      "topic": "EM.4",
+      "title": "Classification of Substances",
+      "scope": "classification of substances into conductors, insulators and semiconductors based on the energy bands, effect of temperature on the resistivity of conductors, semiconductors, thermistor and superconductors, potential applications of Room Temperature Superconductors (RTS)",
+      "ig_pedagogy": "Flipped classroom; quiz and discussion",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": [
+        "NTC and PTC thermistors (IG exemplar question)"
+      ]
+    },
+    {
+      "number": "3.4.2",
+      "topic": "EM.4",
+      "title": "Semiconductors",
+      "scope": "types of semiconductor",
+      "ig_pedagogy": "5E model; intrinsic/extrinsic, n-type and p-type",
+      "ig_exemplar_questions": 4,
+      "ig_extra_concepts": [
+        "intrinsic and extrinsic semiconductors; n-type and p-type (IG learning experience)"
+      ]
+    },
+    {
+      "number": "3.4.3",
+      "topic": "EM.4",
+      "title": "DC Circuits",
+      "scope": "d.c. circuits, Kirchhoff's laws, applications of potential divider in light sensor, temperature sensor, and audio volume controls",
+      "ig_pedagogy": "Activity-based learning; circuit construction kit simulation",
+      "ig_exemplar_questions": 4,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.4.4",
+      "topic": "EM.4",
+      "title": "Electromotive Force of a Dry Cell",
+      "scope": "electromotive force (emf) of a dry cell, null point, least count, resistance per unit length, slope from graph",
+      "ig_pedagogy": "Structured inquiry; potentiometer practical",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.4.5",
+      "topic": "EM.4",
+      "title": "Specific Resistance",
+      "scope": "principle of wheatstone bridge, specific resistance of resistor, least count",
+      "ig_pedagogy": "Order of activity; Wheatstone bridge practical",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "3.4.6",
+      "topic": "EM.4",
+      "title": "AC Circuits",
+      "scope": "a.c. circuit, root mean square (RMS) value of a.c., sinusoidal variation of voltage and current when ac voltage is applied to resistor, inductor and capacitor in an a.c. circuit (final expressions)",
+      "ig_pedagogy": "Flipped classroom with driving question on RMS",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": [
+        "resistance, reactance, impedance, phase angle (IG learning experience)"
+      ]
+    },
+    {
+      "number": "3.4.7",
+      "topic": "EM.4",
+      "title": "AC Voltage Applied to a Series LCR Circuit",
+      "scope": "phasor diagram solution, analytical solution and resonance",
+      "ig_pedagogy": "Flipped classroom; resonance curve interpretation",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "4.1.1",
+      "topic": "WO.1",
+      "title": "Reflection of Light by Spherical Mirrors",
+      "scope": "reflection of light by spherical mirrors, cartesian sign convention, magnification, mirror equation (final expressions)",
+      "ig_pedagogy": "POE (Predict, Observe, Explain); virtual experiments",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": [
+        "aberrations of spherical mirrors (IG learning experience)"
+      ]
+    },
+    {
+      "number": "4.1.2",
+      "topic": "WO.1",
+      "title": "Refraction through Spherical Surfaces",
+      "scope": "Cartesian sign convention, linear (transverse) magnification, refraction by lenses, converging and diverging lenses, derivation and application of lens equation (final expression), focal length of lens using u-v and displacement method (range and least count of optical bench, slope from graph), mathematical expression of magnification, power of a lens, focal length by combination of lenses",
+      "ig_pedagogy": "Guided inquiry; optical bench practicals",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "4.1.3",
+      "topic": "WO.1",
+      "title": "Refractive Index",
+      "scope": "law of refraction, real depth, apparent depth, traveling microscope, least count",
+      "ig_pedagogy": "Structured inquiry; travelling microscope practical",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "4.2.1",
+      "topic": "WO.2",
+      "title": "Wavefront and Huygens' Principle",
+      "scope": "wavefront, types of wavefronts and Huygens' principle",
+      "ig_pedagogy": "Instructional practices; Huygens simulation (printed as 4.1.1 in IG)",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "4.2.2",
+      "topic": "WO.2",
+      "title": "Refraction and Reflection of Plane Waves using Huygens' Principle",
+      "scope": "derivation",
+      "ig_pedagogy": "Simulation-based verification (printed as 4.1.2 in IG)",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "4.2.3",
+      "topic": "WO.2",
+      "title": "Superposition of Waves",
+      "scope": "superposition of waves, interference, coherence and incoherence, path difference and phase difference",
+      "ig_pedagogy": "POGIL (Process-Oriented Guided Inquiry Learning)",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "4.2.4",
+      "topic": "WO.2",
+      "title": "Interference and Young's Experiment",
+      "scope": "conditions for constructive and destructive interference, locating the fringes and intensity in double-slit interference",
+      "ig_pedagogy": "POGIL; Young's double-slit simulation; fringe-width numericals",
+      "ig_exemplar_questions": 4,
+      "ig_extra_concepts": [
+        "linear and angular positions of fringes, fringe width (IG learning experience)"
+      ]
+    },
+    {
+      "number": "4.2.5",
+      "topic": "WO.2",
+      "title": "Diffraction",
+      "scope": "diffraction of light, diffraction by single slit: locating minima, use of diffraction in the spectral analysis of the light from the star",
+      "ig_pedagogy": "Order of activity; single-slit simulation; spectrograph research",
+      "ig_exemplar_questions": 4,
+      "ig_extra_concepts": [
+        "spectrograph components and working (IG learning experience)"
+      ]
+    },
+    {
+      "number": "4.3.1",
+      "topic": "WO.3",
+      "title": "Particle Nature of Light: The Photon",
+      "scope": "energy of photon and unit conversion in eV, photon model of electromagnetic radiation",
+      "ig_pedagogy": "Instructional practices; videos; presentation",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "4.3.2",
+      "topic": "WO.3",
+      "title": "Electron Emission and Photoelectric Effect",
+      "scope": "electron emission, experimental study of photoelectric effect, significance of the terms work function, stopping potential and threshold frequency, wave theory of light",
+      "ig_pedagogy": "Instructional practices; photoelectric simulation",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "4.3.3",
+      "topic": "WO.3",
+      "title": "Einstein's Photoelectric Equation: Energy Quantum of Radiation",
+      "scope": "photoelectric equation, numerical problems, and conservation of energy",
+      "ig_pedagogy": "Photoelectric simulation; PowerPoint presentation",
+      "ig_exemplar_questions": 4,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "4.3.4",
+      "topic": "WO.3",
+      "title": "Wave Nature of Matter",
+      "scope": "de Broglie matter waves, mathematical expressions and numerical problems",
+      "ig_pedagogy": "EBA (Evidence Based Argumentation) debate: Is light a particle or a wave?",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": [
+        "Heisenberg's uncertainty principle, de Broglie wavelength of an electron, electron diffraction (IG learning experience)"
+      ]
+    },
+    {
+      "number": "5.1.1",
+      "topic": "ANSP.1",
+      "title": "Standard Model",
+      "scope": "elementary particles and four fundamental forces",
+      "ig_pedagogy": "Collaborative group presentations",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "5.1.2",
+      "topic": "ANSP.1",
+      "title": "Particles and Antiparticles",
+      "scope": "particles and antiparticles, annihilation of particles",
+      "ig_pedagogy": "Collaborative group presentations",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "5.1.3",
+      "topic": "ANSP.1",
+      "title": "Classification of Particles",
+      "scope": "classification of particles, quarks and leptons, properties of quarks, conservation laws regulating particles, change of quarks during beta+ and beta- decay",
+      "ig_pedagogy": "Collaborative group presentations",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": [
+        "baryon number and strangeness (IG exemplar question)"
+      ]
+    },
+    {
+      "number": "5.1.4",
+      "topic": "ANSP.1",
+      "title": "Nanotechnology",
+      "scope": "nanotechnology, applications and future implications",
+      "ig_pedagogy": "Scientific inquiry; animated/interactive presentation",
+      "ig_exemplar_questions": 5,
+      "ig_extra_concepts": [
+        "carbon nanotubes; advantages of nanomaterials over bulk materials (IG reflective questions)"
+      ]
+    },
+    {
+      "number": "5.2.1",
+      "topic": "ANSP.2",
+      "title": "Nuclear Energy",
+      "scope": "nuclear energy, mass defect, binding energy, nuclear stability, thermal neutrons",
+      "ig_pedagogy": "5E model",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "5.2.2",
+      "topic": "ANSP.2",
+      "title": "Nuclear Fission: The Basic Process",
+      "scope": "nuclear fission, nuclear chain reaction-controlled and uncontrolled, nuclear fission reactor, peaceful and destructive applications of nuclear fission",
+      "ig_pedagogy": "Instructional practices; fission simulation; recommendation task",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "5.2.3",
+      "topic": "ANSP.2",
+      "title": "Nuclear Fusion: The Basic Process",
+      "scope": "nuclear fusion, thermonuclear fusion in the Sun and other stars - CNO cycle and P-P cycle, controlled thermonuclear fusion, advantages of nuclear fusion as a potential energy source over nuclear fission",
+      "ig_pedagogy": "DBGL (Digital Based Game Learning); constructive debate",
+      "ig_exemplar_questions": 2,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "5.3.1",
+      "topic": "ANSP.3",
+      "title": "Processes of Satellite Development",
+      "scope": "mission definition review, preliminary design review, critical design review, safety review",
+      "ig_pedagogy": "Scientific inquiry; design a satellite mission",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "5.3.2",
+      "topic": "ANSP.3",
+      "title": "Orbital Mechanics and Satellite Launch",
+      "scope": "Kepler's laws, rocket technology",
+      "ig_pedagogy": "Digital game based learning; rocket launch/docking simulators",
+      "ig_exemplar_questions": 3,
+      "ig_extra_concepts": [
+        "orbital speed and period of a satellite (IG exemplar question)"
+      ]
+    },
+    {
+      "number": "5.3.3",
+      "topic": "ANSP.3",
+      "title": "Satellite Subsystems and Satellite Tracking or Operation",
+      "scope": "command and data-handling subsystem (CDHS), electrical power system (EPS), environmental control and life-support subsystem (ECLSS), onboard computer (OBC), structures and mechanics, satellite ground station, satellite tracking, satellite operation",
+      "ig_pedagogy": "Instructional practices; block diagrams; interactive presentation",
+      "ig_exemplar_questions": 2,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "5.3.4",
+      "topic": "ANSP.3",
+      "title": "The Space Environment",
+      "scope": "major hazards of the space environment, living and working in space",
+      "ig_pedagogy": "REI (Research, Evidence, Inference)",
+      "ig_exemplar_questions": 0,
+      "ig_extra_concepts": [
+        "hazards: gravity, atmosphere, radiation, vacuum, micrometeoroids and space junk, charged particles (IG learning experience)"
+      ]
+    },
+    {
+      "number": "5.3.5",
+      "topic": "ANSP.3",
+      "title": "Satellite Disposal",
+      "scope": "end of life of a satellite, disposal, space debris management",
+      "ig_pedagogy": "REI (Research, Evidence, Inference)",
+      "ig_exemplar_questions": 2,
+      "ig_extra_concepts": []
+    },
+    {
+      "number": "5.3.6",
+      "topic": "ANSP.3",
+      "title": "Space Law and Regulations",
+      "scope": "international space treaties, registration convention, frequency regulations, international governing bodies such as International Telecommunications Union (ITU), United Nations Office for Outer Space Affairs (UNOOSA)",
+      "ig_pedagogy": "REI (Research, Evidence, Inference); group write-up",
+      "ig_exemplar_questions": 1,
+      "ig_extra_concepts": []
+    }
+  ],
+  "learning_objectives": [
+    {
+      "code": "XII.NM.01",
+      "source_ref": "SCF Table 16 / IG obj. i",
+      "roman": "i",
+      "theme": "NM",
+      "topic": "NM.1",
+      "subtopics": [
+        "1.1.1",
+        "1.1.2"
+      ],
+      "statement": "Explain periodic motion and oscillatory motion and relate with Simple Harmonic Motion (SHM) graphically using interactive simulation.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Analysing and Interpreting Data",
+        "Developing and Using Models"
+      ]
+    },
+    {
+      "code": "XII.NM.02",
+      "source_ref": "SCF Table 16 / IG obj. ii",
+      "roman": "ii",
+      "theme": "NM",
+      "topic": "NM.1",
+      "subtopics": [
+        "1.1.3"
+      ],
+      "statement": "Use algebraic or computational representations to claim that total energy in SHM is conserved.",
+      "bloom_primary": "Evaluating",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Using Mathematics and Computational Thinking",
+        "Engaging in Argument from Evidence",
+        "Developing and Using Models"
+      ]
+    },
+    {
+      "code": "XII.NM.03",
+      "source_ref": "SCF Table 16 / IG obj. iii",
+      "roman": "iii",
+      "theme": "NM",
+      "topic": "NM.1",
+      "subtopics": [
+        "1.1.4"
+      ],
+      "statement": "Determine the value of acceleration due to gravity of a place to provide scientific evidence that a simple pendulum executes SHM.",
+      "bloom_primary": "Applying",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Analysing and Interpreting Data",
+        "Engaging in Argument from Evidence"
+      ]
+    },
+    {
+      "code": "XII.NM.04",
+      "source_ref": "SCF Table 16 / IG obj. iv",
+      "roman": "iv",
+      "theme": "NM",
+      "topic": "NM.1",
+      "subtopics": [
+        "1.1.5"
+      ],
+      "statement": "Experimentally investigate the concept of resonance using a tuning fork.",
+      "bloom_primary": "Analysing",
+      "practical": true,
+      "numerical": false,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Constructing Explanations and Designing Solutions",
+        "Obtaining, Evaluating and Communicating Information",
+        "Developing and Using Models"
+      ]
+    },
+    {
+      "code": "XII.FMT.01",
+      "source_ref": "SCF Table 17 / IG obj. i",
+      "roman": "i",
+      "theme": "FMT",
+      "topic": "FMT.1",
+      "subtopics": [
+        "2.1.1"
+      ],
+      "statement": "Carry out an experiment on surface tension of liquid from capillary rise method to comprehend its importance in everyday phenomena.",
+      "bloom_primary": "Applying",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Planning and Carrying out Investigations",
+        "Developing and Using Models",
+        "Using Mathematics and Computational Thinking",
+        "Engaging in Argument from Evidence"
+      ]
+    },
+    {
+      "code": "XII.FMT.02",
+      "source_ref": "SCF Table 17 / IG obj. ii",
+      "roman": "ii",
+      "theme": "FMT",
+      "topic": "FMT.1",
+      "subtopics": [
+        "2.1.2"
+      ],
+      "statement": "Design an experiment to measure the viscosity of the fluids and explain its applications in our daily life.",
+      "bloom_primary": "Creating",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Analysing and Interpreting Data",
+        "Constructing Explanations and Designing Solutions"
+      ]
+    },
+    {
+      "code": "XII.FMT.03",
+      "source_ref": "SCF Table 17 / IG obj. iii",
+      "roman": "iii",
+      "theme": "FMT",
+      "topic": "FMT.1",
+      "subtopics": [
+        "2.1.2"
+      ],
+      "statement": "Verify Bernoulli's equation using interactive simulations or models.",
+      "bloom_primary": "Applying",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.FMT.04",
+      "source_ref": "SCF Table 17 / IG obj. iv",
+      "roman": "iv",
+      "theme": "FMT",
+      "topic": "FMT.2",
+      "subtopics": [
+        "2.2.1"
+      ],
+      "statement": "Differentiate between real and ideal gases using multimedia.",
+      "bloom_primary": "Analysing",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Obtaining, Evaluating and Communicating Information"
+      ]
+    },
+    {
+      "code": "XII.FMT.05",
+      "source_ref": "SCF Table 17 / IG obj. v",
+      "roman": "v",
+      "theme": "FMT",
+      "topic": "FMT.2",
+      "subtopics": [
+        "2.2.1"
+      ],
+      "statement": "Explain kinetic theory of an ideal gas and solve numerical problems.",
+      "bloom_primary": "Applying",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Using Mathematics and Computational Thinking",
+        "Obtaining, Evaluating and Communicating Information"
+      ]
+    },
+    {
+      "code": "XII.EM.01",
+      "source_ref": "SCF Table 18 / IG obj. i",
+      "roman": "i",
+      "theme": "EM",
+      "topic": "EM.1",
+      "subtopics": [
+        "3.1.1"
+      ],
+      "statement": "Explain the basic properties of electric charge and verify Coulomb's law using interactive simulations.",
+      "bloom_primary": "Applying",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.EM.02",
+      "source_ref": "SCF Table 18 / IG obj. ii",
+      "roman": "ii",
+      "theme": "EM",
+      "topic": "EM.1",
+      "subtopics": [
+        "3.1.2"
+      ],
+      "statement": "Relate electric field and electric flux and determine the strength of the charge of an object using relevant mathematical expressions.",
+      "bloom_primary": "Applying",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.EM.03",
+      "source_ref": "SCF Table 18 / IG obj. iii",
+      "roman": "iii",
+      "theme": "EM",
+      "topic": "EM.2",
+      "subtopics": [
+        "3.2.1"
+      ],
+      "statement": "Construct a simple model of a capacitor to explain the working and its applications in electronic devices.",
+      "bloom_primary": "Creating",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Constructing Explanations and Designing Solutions",
+        "Developing and Using Models"
+      ]
+    },
+    {
+      "code": "XII.EM.04",
+      "source_ref": "SCF Table 18 / IG obj. iv",
+      "roman": "iv",
+      "theme": "EM",
+      "topic": "EM.2",
+      "subtopics": [
+        "3.2.2"
+      ],
+      "statement": "Explain the concept of combination of capacitors in series and parallel.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.EM.05",
+      "source_ref": "SCF Table 18 / IG obj. v",
+      "roman": "v",
+      "theme": "EM",
+      "topic": "EM.3",
+      "subtopics": [
+        "3.3.1"
+      ],
+      "statement": "Explain magnetic flux and terms related to it and solve numerical problems.",
+      "bloom_primary": "Applying",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.EM.06",
+      "source_ref": "SCF Table 18 / IG obj. vi",
+      "roman": "vi",
+      "theme": "EM",
+      "topic": "EM.3",
+      "subtopics": [
+        "3.3.2"
+      ],
+      "statement": "Define magnetic moment and compare the magnetic moment of two bar magnets to comprehend the magnetic field strength.",
+      "bloom_primary": "Analysing",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Analysing and Interpreting Data"
+      ]
+    },
+    {
+      "code": "XII.EM.07",
+      "source_ref": "SCF Table 18 / IG obj. vii",
+      "roman": "vii",
+      "theme": "EM",
+      "topic": "EM.3",
+      "subtopics": [
+        "3.3.3"
+      ],
+      "statement": "Design an experiment to verify Faraday's laws and relate Lenz's law to explain the working of a.c. generator.",
+      "bloom_primary": "Creating",
+      "practical": true,
+      "numerical": false,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Developing and Using Models",
+        "Engaging in Argument from Evidence"
+      ]
+    },
+    {
+      "code": "XII.EM.08",
+      "source_ref": "SCF Table 18 / IG obj. viii",
+      "roman": "viii",
+      "theme": "EM",
+      "topic": "EM.3",
+      "subtopics": [
+        "3.3.4"
+      ],
+      "statement": "Comprehend self and mutual induction to explain the concept of a transformer using simulations/multimedia.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Using Mathematics and Computational Thinking",
+        "Constructing Explanations and Designing Solutions"
+      ]
+    },
+    {
+      "code": "XII.EM.09",
+      "source_ref": "SCF Table 18 / IG obj. ix",
+      "roman": "ix",
+      "theme": "EM",
+      "topic": "EM.4",
+      "subtopics": [
+        "3.4.1"
+      ],
+      "statement": "Classify substances into conductors, insulators and semiconductors and evaluate their dependence on temperature.",
+      "bloom_primary": "Evaluating",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Analysing and Interpreting Data",
+        "Obtaining, Evaluating and Communicating Information"
+      ]
+    },
+    {
+      "code": "XII.EM.10",
+      "source_ref": "SCF Table 18 / IG obj. x",
+      "roman": "x",
+      "theme": "EM",
+      "topic": "EM.4",
+      "subtopics": [
+        "3.4.2"
+      ],
+      "statement": "Explain semiconductors and its importance in designing electronic devices.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Constructing Explanations and Designing Solutions",
+        "Engaging in Argument from Evidence"
+      ]
+    },
+    {
+      "code": "XII.EM.11",
+      "source_ref": "SCF Table 18 / IG obj. xi",
+      "roman": "xi",
+      "theme": "EM",
+      "topic": "EM.4",
+      "subtopics": [
+        "3.4.3"
+      ],
+      "statement": "Conduct an experiment to verify Kirchhoff's laws.",
+      "bloom_primary": "Applying",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.EM.12",
+      "source_ref": "SCF Table 18 / IG obj. xii",
+      "roman": "xii",
+      "theme": "EM",
+      "topic": "EM.4",
+      "subtopics": [
+        "3.4.3"
+      ],
+      "statement": "Design a model based on the application of potential dividers using interactive simulations.",
+      "bloom_primary": "Creating",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Developing and Using Models",
+        "Analysing and Interpreting Data"
+      ]
+    },
+    {
+      "code": "XII.EM.13",
+      "source_ref": "SCF Table 18 / IG obj. xiii",
+      "roman": "xiii",
+      "theme": "EM",
+      "topic": "EM.4",
+      "subtopics": [
+        "3.4.4"
+      ],
+      "statement": "Determine emf of a dry cell by changing the resistance.",
+      "bloom_primary": "Applying",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Analysing and Interpreting Data",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.EM.14",
+      "source_ref": "SCF Table 18 / IG obj. xiv",
+      "roman": "xiv",
+      "theme": "EM",
+      "topic": "EM.4",
+      "subtopics": [
+        "3.4.5"
+      ],
+      "statement": "Determine specific resistance of the given wire by changing the resistance of the resistance box.",
+      "bloom_primary": "Applying",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.EM.15",
+      "source_ref": "SCF Table 18 / IG obj. xv",
+      "roman": "xv",
+      "theme": "EM",
+      "topic": "EM.4",
+      "subtopics": [
+        "3.4.6"
+      ],
+      "statement": "Explain the sinusoidal variation of voltage and current in an a.c. circuit using interactive simulation/multimedia.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Developing and Using Models",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.EM.16",
+      "source_ref": "SCF Table 18 / IG obj. xvi",
+      "roman": "xvi",
+      "theme": "EM",
+      "topic": "EM.4",
+      "subtopics": [
+        "3.4.7"
+      ],
+      "statement": "Apply graphical and mathematical methods to analyse the maximum current in the LCR circuit.",
+      "bloom_primary": "Analysing",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Using Mathematics and Computational Thinking",
+        "Engaging in Argument from Evidence"
+      ]
+    },
+    {
+      "code": "XII.WO.01",
+      "source_ref": "SCF Table 19 / IG obj. i",
+      "roman": "i",
+      "theme": "WO",
+      "topic": "WO.1",
+      "subtopics": [
+        "4.1.1"
+      ],
+      "statement": "Conduct an experiment to comprehend the behaviour of light when it strikes on spherical mirrors using interactive simulation and sketch ray diagrams.",
+      "bloom_primary": "Applying",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Planning and Carrying out Investigations",
+        "Developing and Using Models",
+        "Analysing and Interpreting Data"
+      ]
+    },
+    {
+      "code": "XII.WO.02",
+      "source_ref": "SCF Table 19 / IG obj. ii",
+      "roman": "ii",
+      "theme": "WO",
+      "topic": "WO.1",
+      "subtopics": [
+        "4.1.2"
+      ],
+      "statement": "Verify the focal length of a given convex lens by u-v and displacement method.",
+      "bloom_primary": "Applying",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Developing and Using Models",
+        "Analysing and Interpreting Data",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.WO.03",
+      "source_ref": "SCF Table 19 / IG obj. iii",
+      "roman": "iii",
+      "theme": "WO",
+      "topic": "WO.1",
+      "subtopics": [
+        "4.1.2"
+      ],
+      "statement": "Determine the focal length of concave and convex lenses based on the concept of combination of lenses.",
+      "bloom_primary": "Applying",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Developing and Using Models",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.WO.04",
+      "source_ref": "SCF Table 19 / IG obj. iv",
+      "roman": "iv",
+      "theme": "WO",
+      "topic": "WO.1",
+      "subtopics": [
+        "4.1.3"
+      ],
+      "statement": "Perform an experiment to compare the refractive index of two liquids and verify the law of refraction.",
+      "bloom_primary": "Analysing",
+      "practical": true,
+      "numerical": true,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Planning and Carrying out Investigations",
+        "Analysing and Interpreting Data"
+      ]
+    },
+    {
+      "code": "XII.WO.05",
+      "source_ref": "SCF Table 19 / IG obj. v",
+      "roman": "v",
+      "theme": "WO",
+      "topic": "WO.2",
+      "subtopics": [
+        "4.2.1",
+        "4.2.2"
+      ],
+      "statement": "Verify Huygens' principle to comprehend refraction and reflection of plane waves using interactive simulations.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Developing and Using Models",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.WO.06",
+      "source_ref": "SCF Table 19 / IG obj. vi",
+      "roman": "vi",
+      "theme": "WO",
+      "topic": "WO.2",
+      "subtopics": [
+        "4.2.3",
+        "4.2.4"
+      ],
+      "statement": "Investigate Young's experiment to understand superposition and interference of light waves using interactive simulation.",
+      "bloom_primary": "Analysing",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Developing and Using Models",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.WO.07",
+      "source_ref": "SCF Table 19 / IG obj. vii",
+      "roman": "vii",
+      "theme": "WO",
+      "topic": "WO.2",
+      "subtopics": [
+        "4.2.5"
+      ],
+      "statement": "Explain the phenomena of diffraction of light and compare its intensity to that of interference.",
+      "bloom_primary": "Analysing",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.WO.08",
+      "source_ref": "SCF Table 19 / IG obj. viii",
+      "roman": "viii",
+      "theme": "WO",
+      "topic": "WO.3",
+      "subtopics": [
+        "4.3.1",
+        "4.3.2"
+      ],
+      "statement": "Discuss the photon model of electromagnetic radiation and calculate energy of photon in eV.",
+      "bloom_primary": "Applying",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Using Mathematics and Computational Thinking",
+        "Constructing Explanations and Designing Solutions",
+        "Engaging in Argument from Evidence"
+      ]
+    },
+    {
+      "code": "XII.WO.09",
+      "source_ref": "SCF Table 19 / IG obj. ix",
+      "roman": "ix",
+      "theme": "WO",
+      "topic": "WO.3",
+      "subtopics": [
+        "4.3.2",
+        "4.3.3"
+      ],
+      "statement": "Verify Einstein's photoelectric effect to comprehend the particle nature of light using multimedia/simulation.",
+      "bloom_primary": "Applying",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Planning and Carrying out Investigations",
+        "Developing and Using Models",
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.WO.10",
+      "source_ref": "SCF Table 19 / IG obj. x",
+      "roman": "x",
+      "theme": "WO",
+      "topic": "WO.3",
+      "subtopics": [
+        "4.3.4"
+      ],
+      "statement": "Explain the wave nature of light through the de Broglie wave equation using multimedia.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Using Mathematics and Computational Thinking",
+        "Constructing Explanations and Designing Solutions",
+        "Engaging in Argument from Evidence"
+      ]
+    },
+    {
+      "code": "XII.ANSP.01",
+      "source_ref": "SCF Table 20 / IG obj. i",
+      "roman": "i",
+      "theme": "ANSP",
+      "topic": "ANSP.1",
+      "subtopics": [
+        "5.1.1",
+        "5.1.3"
+      ],
+      "statement": "Explain the interior components of atoms, its behaviour and properties using interactive simulation or video.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Obtaining, Evaluating and Communicating Information"
+      ]
+    },
+    {
+      "code": "XII.ANSP.02",
+      "source_ref": "SCF Table 20 / IG obj. ii",
+      "roman": "ii",
+      "theme": "ANSP",
+      "topic": "ANSP.1",
+      "subtopics": [
+        "5.1.2"
+      ],
+      "statement": "Describe particles and antiparticles to comprehend the concept of annihilation.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Obtaining, Evaluating and Communicating Information"
+      ]
+    },
+    {
+      "code": "XII.ANSP.03",
+      "source_ref": "SCF Table 20 / IG obj. iii",
+      "roman": "iii",
+      "theme": "ANSP",
+      "topic": "ANSP.1",
+      "subtopics": [
+        "5.1.4"
+      ],
+      "statement": "Explain the concept of nanotechnology and its real-world applications.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Planning and Carrying out Investigations"
+      ]
+    },
+    {
+      "code": "XII.ANSP.04",
+      "source_ref": "SCF Table 20 / IG obj. iv",
+      "roman": "iv",
+      "theme": "ANSP",
+      "topic": "ANSP.2",
+      "subtopics": [
+        "5.2.1"
+      ],
+      "statement": "Explain mass defect and binding energy per nucleon and solve numerical problems.",
+      "bloom_primary": "Applying",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Using Mathematics and Computational Thinking"
+      ]
+    },
+    {
+      "code": "XII.ANSP.05",
+      "source_ref": "SCF Table 20 / IG obj. v",
+      "roman": "v",
+      "theme": "ANSP",
+      "topic": "ANSP.2",
+      "subtopics": [
+        "5.2.1"
+      ],
+      "statement": "Interpret the curve of average binding energy per nucleon against nucleon number.",
+      "bloom_primary": "Analysing",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Analysing and Interpreting Data"
+      ]
+    },
+    {
+      "code": "XII.ANSP.06",
+      "source_ref": "SCF Table 20 / IG obj. vi",
+      "roman": "vi",
+      "theme": "ANSP",
+      "topic": "ANSP.2",
+      "subtopics": [
+        "5.2.2"
+      ],
+      "statement": "Evaluate the useful and destructive applications of nuclear fission.",
+      "bloom_primary": "Evaluating",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Analysing and Interpreting Data",
+        "Constructing Explanations and Designing Solutions",
+        "Engaging in Argument from Evidence"
+      ]
+    },
+    {
+      "code": "XII.ANSP.07",
+      "source_ref": "SCF Table 20 / IG obj. vii",
+      "roman": "vii",
+      "theme": "ANSP",
+      "topic": "ANSP.2",
+      "subtopics": [
+        "5.2.3"
+      ],
+      "statement": "Compare and contrast nuclear fission and nuclear fusion.",
+      "bloom_primary": "Analysing",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Engaging in Argument from Evidence"
+      ]
+    },
+    {
+      "code": "XII.ANSP.08",
+      "source_ref": "SCF Table 20 / IG obj. viii",
+      "roman": "viii",
+      "theme": "ANSP",
+      "topic": "ANSP.3",
+      "subtopics": [
+        "5.3.1"
+      ],
+      "statement": "Explain satellite development processes to develop a model of an artificial satellite.",
+      "bloom_primary": "Creating",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Developing and Using Models"
+      ]
+    },
+    {
+      "code": "XII.ANSP.09",
+      "source_ref": "SCF Table 20 / IG obj. ix",
+      "roman": "ix",
+      "theme": "ANSP",
+      "topic": "ANSP.3",
+      "subtopics": [
+        "5.3.2"
+      ],
+      "statement": "Explain the concept of rocket launch technology.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": true,
+      "sep": [
+        "Developing and Using Models"
+      ]
+    },
+    {
+      "code": "XII.ANSP.10",
+      "source_ref": "SCF Table 20 / IG obj. x",
+      "roman": "x",
+      "theme": "ANSP",
+      "topic": "ANSP.3",
+      "subtopics": [
+        "5.3.3"
+      ],
+      "statement": "Explain earth segment subsystems to investigate transmission and reception of signals from satellites and describe space segment subsystems to comprehend how satellites are stationed in a particular orbit.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Asking Questions and Defining Problems",
+        "Planning and Carrying out Investigations"
+      ]
+    },
+    {
+      "code": "XII.ANSP.11",
+      "source_ref": "SCF Table 20 / IG obj. xi",
+      "roman": "xi",
+      "theme": "ANSP",
+      "topic": "ANSP.3",
+      "subtopics": [
+        "5.3.4",
+        "5.3.5"
+      ],
+      "statement": "Identify the elements of the space environment to minimize space hazards.",
+      "bloom_primary": "Remembering",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Planning and Carrying out Investigations"
+      ]
+    },
+    {
+      "code": "XII.ANSP.12",
+      "source_ref": "SCF Table 20 / IG obj. xii",
+      "roman": "xii",
+      "theme": "ANSP",
+      "topic": "ANSP.3",
+      "subtopics": [
+        "5.3.6"
+      ],
+      "statement": "Study the space laws and regulations to create awareness that all nations have equal opportunity and accountability to explore space.",
+      "bloom_primary": "Understanding",
+      "practical": false,
+      "numerical": false,
+      "sep": [
+        "Analysing and Interpreting Data"
+      ]
+    }
+  ],
+  "practicals": [
+    {
+      "title": "Determine acceleration due to gravity using a simple pendulum",
+      "subtopic": "1.1.4",
+      "apparatus": "clamp stand, bob, vernier calliper, thread, ruler, stopclock"
+    },
+    {
+      "title": "Determine the force constant of a spring (mass-spring system)",
+      "subtopic": "1.1.3",
+      "apparatus": "spring, slotted weights, stopclock"
+    },
+    {
+      "title": "Investigate resonance using a sonometer and tuning fork",
+      "subtopic": "1.1.5",
+      "apparatus": "sonometer, tuning fork"
+    },
+    {
+      "title": "Determine surface tension of water by capillary rise",
+      "subtopic": "2.1.1",
+      "apparatus": "travelling microscope, capillary tube"
+    },
+    {
+      "title": "Design an experiment to measure viscosity of fluids",
+      "subtopic": "2.1.2",
+      "apparatus": "learner-designed"
+    },
+    {
+      "title": "Compare magnetic moments of two bar magnets (deflection magnetometer, Tan-A position)",
+      "subtopic": "3.3.2",
+      "apparatus": "deflection magnetometer, two bar magnets"
+    },
+    {
+      "title": "Verify Faraday's laws of electromagnetic induction and Lenz's law",
+      "subtopic": "3.3.3",
+      "apparatus": "learner-designed: coil, magnet, galvanometer"
+    },
+    {
+      "title": "Verify Kirchhoff's laws",
+      "subtopic": "3.4.3",
+      "apparatus": "circuit construction kit or instruments"
+    },
+    {
+      "title": "Determine emf of a dry cell by changing the resistance (potentiometer)",
+      "subtopic": "3.4.4",
+      "apparatus": "potentiometer, resistance box, ammeter, voltmeter, plug key, d.c. source, jockey, galvanometer, dry cell"
+    },
+    {
+      "title": "Determine specific resistance of a wire (Wheatstone bridge principle)",
+      "subtopic": "3.4.5",
+      "apparatus": "potentiometer, galvanometer, plug key, d.c. source, jockey, resistance box, screw gauge"
+    },
+    {
+      "title": "Determine focal length of a concave mirror (virtual experiment)",
+      "subtopic": "4.1.1",
+      "apparatus": "simulation"
+    },
+    {
+      "title": "Verify focal length of a convex lens by u-v and displacement method",
+      "subtopic": "4.1.2",
+      "apparatus": "optical bench, convex lens"
+    },
+    {
+      "title": "Determine focal length of a convex lens by combination; focal length of a concave lens",
+      "subtopic": "4.1.2",
+      "apparatus": "optical bench, lenses"
+    },
+    {
+      "title": "Compare refractive index of two liquids (real and apparent depth)",
+      "subtopic": "4.1.3",
+      "apparatus": "travelling microscope, water, oil, pin, saw dust/thermocol"
+    }
+  ]
+}
