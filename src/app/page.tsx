@@ -26,7 +26,10 @@ export default async function Landing() {
             <Link href="/register" className={buttonClass()}>Start practising - it&apos;s free</Link>
             <Link href="/login" className={buttonClass("secondary")}>Sign in</Link>
           </div>
-          <p className="mt-3 text-sm text-ink-muted">Try the demo: <span className="font-mono">karma@demo.bt</span> (student) or <span className="font-mono">teacher@demo.bt</span> (teacher), password <span className="font-mono">physics123</span>.</p>
+          {process.env.SEED_DEMO === "true" && (
+            <p className="mt-3 text-sm text-ink-muted">Try the demo: <span className="font-mono">karma@demo.bt</span> (student) or <span className="font-mono">teacher@demo.bt</span> (teacher), password <span className="font-mono">physics123</span>.</p>
+          )}
+          <p className="mt-3 text-sm text-ink-muted">Students: create an account and enter the class join code from your physics teacher.</p>
         </div>
         <div className="rounded-2xl border border-line bg-raised p-5">
           <p className="text-xs font-semibold uppercase tracking-wider text-ink-muted">Class XII themes and exam weighting</p>
